@@ -1,0 +1,91 @@
+/* Main HTML Elements */
+body { 
+    font-family: Univers, Helvetica, 'Open Sans', Calibri, sans-serif, 'Raleway', 'Montserrat'; 
+    background: white; 
+    color: black 
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+    color: rgb(0,0,20);
+    font-weight: 800;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    letter-spacing: 0.0238095em;
+}
+
+#canvas {
+    padding: 5%;
+    margin: 0px auto;
+    max-width: 80%;
+}
+
+/* .center_div {
+    width: 80%;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+/* Top Navigation Bar */
+#Header {
+    display: block;
+    top: 0px;
+    margin-bottom: 64px;
+}
+
+/* Logo */
+#logo {
+    width: 50%;
+    float: left;
+}
+
+#position {
+    letter-spacing: 0.0714286em;
+    color: rgb(74, 81, 94);
+    font-size: 110%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Right Side - Navigation Bar */
+#topNav nav li a {
+    line-height: 24px;
+    text-decoration: none;
+    display: inline;
+    color: rgb(197, 197, 197);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#topNav nav {
+    float: right;
+}
+
+#topNav ul {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+#topNav li {
+    text-decoration: none !important;
+}
+
+#topNav .page-collection {
+    position: relative;
+    margin-right: 40px;
+    text-decoration: none;
+    display: inline;
+}
+
+#topNav .active-link>a {
+    color: rgb(17,17,17);
+}
+
+#topNav a:hover {
+    color: rgb(17,17,17);
+}
