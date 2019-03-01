@@ -48,6 +48,19 @@ h1 {
     color: rgb(74, 81, 94);
     font-size: 110%;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    /* display: inline-block; */
+}
+
+#subPosition {
+    letter-spacing: 0.05em;
+    color: rgba(74, 81, 94, 0.60);
+    font-size: 90%;
+    /* font-size: 100%; */
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 15%; */
+    /* font-style: italic; */
+    display: inline-block;
 }
 
 /* Right Side - Navigation Bar */
